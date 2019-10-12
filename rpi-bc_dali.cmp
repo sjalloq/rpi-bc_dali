@@ -1,0 +1,43 @@
+Cmp-Mod V01 Created by PcbNew   date = Tuesday, 23 October 2018 at 21:59:32
+
+BeginCmp
+TimeStamp = 5BEEADA7
+Path = /5BC906AD
+Reference = J1;
+ValeurCmp = Raspberry_Pi_2_3;
+IdModule  = Connector_PinSocket_2.54mm:PinSocket_2x20_P2.54mm_Vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = 5BCF8D89
+Path = /5BC9039B
+Reference = J2;
+ValeurCmp = Conn_01x04;
+IdModule  = TerminalBlock_Phoenix:TerminalBlock_Phoenix_PTSM-0,5-4-HH-2,5-THR_1x04_P2.50mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 5BCF8DB4
+Path = /5BC9043F
+Reference = J3;
+ValeurCmp = Conn_01x04;
+IdModule  = TerminalBlock_Phoenix:TerminalBlock_Phoenix_PTSM-0,5-4-HH-2,5-THR_1x04_P2.50mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 5BCF8DDF
+Path = /5BC9054C
+Reference = J4;
+ValeurCmp = Conn_01x04;
+IdModule  = TerminalBlock_Phoenix:TerminalBlock_Phoenix_PTSM-0,5-4-HH-2,5-THR_1x04_P2.50mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 5BCF8E0A
+Path = /5BC90599
+Reference = J5;
+ValeurCmp = Conn_01x04;
+IdModule  = TerminalBlock_Phoenix:TerminalBlock_Phoenix_PTSM-0,5-4-HH-2,5-THR_1x04_P2.50mm_Horizontal;
+EndCmp
+
+EndListe
