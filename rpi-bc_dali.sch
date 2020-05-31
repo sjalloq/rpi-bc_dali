@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:rpi-bc_dali-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -617,9 +616,7 @@ Wire Wire Line
 Wire Wire Line
 	4250 5900 4600 5900
 Wire Wire Line
-	1850 3050 1200 3050
-Wire Wire Line
-	1850 3150 1200 3150
+	4100 3550 3450 3550
 Wire Wire Line
 	4600 6250 4250 6250
 Wire Wire Line
@@ -632,13 +629,10 @@ Text Label 4250 5900 0    50   ~ 0
 LED2
 Text Label 4250 5500 0    50   ~ 0
 LED3
-Text Label 1200 3150 0    50   ~ 0
-LED0
 NoConn ~ 3450 2750
 NoConn ~ 3450 2850
 NoConn ~ 3450 3350
 NoConn ~ 3450 3450
-NoConn ~ 3450 3550
 NoConn ~ 3450 3750
 NoConn ~ 1850 4350
 NoConn ~ 1850 4250
@@ -646,7 +640,6 @@ NoConn ~ 1850 4150
 NoConn ~ 1850 4050
 NoConn ~ 1850 3650
 NoConn ~ 1850 3550
-NoConn ~ 1850 3450
 NoConn ~ 1850 3250
 $Comp
 L Connector_Generic:Conn_01x04 J5
@@ -681,7 +674,7 @@ Text Label 3950 4450 0    50   ~ 0
 LED1
 Text Label 3950 4350 0    50   ~ 0
 LED2
-Text Label 1200 3050 0    50   ~ 0
+Text Label 4100 3550 0    50   ~ 0
 LED3
 Wire Wire Line
 	4400 3950 4100 3950
@@ -691,4 +684,10 @@ Text Label 4100 3950 0    50   ~ 0
 MOSI
 Text Label 4100 4050 0    50   ~ 0
 MISO
+Wire Wire Line
+	1850 3450 1200 3450
+Text Label 1200 3450 0    50   ~ 0
+LED0
+NoConn ~ 1850 3050
+NoConn ~ 1850 3150
 $EndSCHEMATC
